@@ -1,21 +1,17 @@
 body{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%)
+    margin: 0px;
+    margin: 0px;
 }
 
-.sign-up-con{
-border: 1px solid black;
-display: flex;
-flex-direction: row;
+.main-con{
+    display: flex;
+    flex-direction: row;
 }
 
-.left-side{
-    height: 80vh;
-    width: 200px;
-}
-.right-side{
-    height: fit-content;
-    width: 600px;
+.left-section {
+    height: 100vh;
+    width: 450px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(./Resource/casey-allen-pT3X6IjYFzA-unsplash.jpg);
 }
