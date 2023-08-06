@@ -1,3 +1,15 @@
 body{
-    background-color: red;
+    margin: auto;
+    width: 650px;
+    padding: 10px;
+}
+
+.sign-up-con{
+    border: 1px solid black;
+    max-width: 750px;    
+    height: 450px;
+}
+/* making sure the  */
+.sign-up-con{
+    
 }
