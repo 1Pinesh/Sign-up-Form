@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap');
+
 body{
     margin: 0px;
     margin: 0px;
@@ -14,4 +16,38 @@ body{
     background-position: center;
     background-size: cover;
     background-image: url(./Resource/casey-allen-pT3X6IjYFzA-unsplash.jpg);
+}
+
+.left-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.title{
+    margin-top: 250px;
+    font-family: 'Bubblegum Sans', cursive;
+    font-size: 50px;
+    animation: 1.5s colour infinite ease-in;
+}
+
+@keyframes colour {
+    0%{
+        color: black;
+    }
+    
+    25%{
+        color: lightblue;
+    }
+    50%{
+        color: yellow;
+    }
+    75%{
+        color: orangered;
+    }
+    100%{
+        color: black;
+    }
 }
