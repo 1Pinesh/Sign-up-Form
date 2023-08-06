@@ -1,15 +1,11 @@
 body{
-    margin: auto;
-    width: 650px;
-    padding: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%)
 }
 
 .sign-up-con{
-    border: 1px solid black;
-    max-width: 750px;    
-    height: 450px;
-}
-/* making sure the  */
-.sign-up-con{
-    
+
+border: 1px solid black;
 }
