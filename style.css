@@ -6,6 +6,16 @@ body{
 }
 
 .sign-up-con{
-
 border: 1px solid black;
+display: flex;
+flex-direction: row;
+}
+
+.left-side{
+    height: 80vh;
+    width: 200px;
+}
+.right-side{
+    height: fit-content;
+    width: 600px;
 }
