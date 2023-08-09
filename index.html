@@ -32,22 +32,27 @@
                 <div class="col">
                     <label for="age">
                         Age
-                        <input type="number" name="age" id="age">
+                        <input type="number" name="age" id="age" min="13" value="0">
                     </label>
                     <label for="email">Email
-                        <input type="email" name="email" id="email" placeholder=" email">
+                        <input type="email" name="email" id="email" placeholder=" email" required>
                     </label>
                 </div>
                 <div class="col">
                     <label for="password">Password
-                        <input type="password" name="pass" id="password" placeholder="password">
+                        <input type="password" name="pass" id="password" placeholder="password" required>
                     </label>
                    <label for="confirmPassword">Confirm Password
-                    <input type="password" name="conPass" placeholder="password">
+                    <input type="password" name="conPass" placeholder="password" required>
                    </label>
                 </div>
+                <div class="sub-con">
+                    <button type="submit">Sign- Up</button>
+                </div>
                 </form>
+
         </div>
+        <span> Already have an account? <a href="#">log-in</a></span>
     </div>
 </main>
 </body>
