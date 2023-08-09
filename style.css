@@ -72,3 +72,8 @@ body{
     background-color: lightgray;
 }
 
+
+.col{
+    display: flex;
+    flex-flow: column;
+}
