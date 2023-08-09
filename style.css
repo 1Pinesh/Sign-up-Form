@@ -71,6 +71,10 @@ body{
 .form-desc{
     background-color: lightgray;
 }
+
+form{
+    background-color: cornsilk;;
+}
 .col {
     display: flex;
     flex-direction: row;
