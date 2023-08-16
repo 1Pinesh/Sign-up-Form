@@ -56,7 +56,7 @@ body{
 .form-desc{
     font-size: 30px;
     padding-left: 50px;
-    padding-top: 150px;
+    padding-top: 120px;
     padding-bottom: 50px;
 
 }
@@ -67,7 +67,6 @@ body{
     padding-bottom: 15px;
     font-size: 50px;
     font-weight: 800;
-    background-color: cornsilk;
 }
 
 .form-desc{
@@ -79,20 +78,38 @@ form{
     padding-left: 50px;
 }
 
+/* Background setting for right side */
 .form-desc{
+    font-family: 'Bubblegum Sans', cursive;
+    color: #B34273;
     background-color:#1E1C1F
 }
 
 .form-sub-title{
+    font-family: 'Bubblegum Sans', cursive;
+    color: #B34273;
+    border-top: 4px solid #17B3D7;
+    border-left: 4px solid #16739C;
+    border-right: 4px solid #16739C;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
     background-color: #110e05;
 }
 
 form{
+    font-family: 'Bubblegum Sans', cursive;
+    border-left: 4px solid #16739C;
+    border-right: 4px solid #16739C;
+    border-bottom: 4px solid  #17B3D7;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
     background-color: #110e05;
 }
 
 .form-section > span{
-    background-color: #1E1C1F
+    font-family: 'Bubblegum Sans', cursive;
+    color: #B34273;
+    background-color: #1E1C1F;
 }
 
 /* Target any calss called col */
@@ -104,6 +121,7 @@ form{
 }
 
 label{
+    color: #B34273;
     display: flex;
     flex-flow: column;
     gap: 5px;
@@ -114,6 +132,7 @@ label{
 
 
 input {
+    font-family: 'Bubblegum Sans', cursive;
     min-width: 250px;
     max-width: 300px;
     height: 30px;
@@ -121,12 +140,14 @@ input {
 }
 
 .sub-con button {
+    font-family: 'Bubblegum Sans', cursive;
     text-align: center;
     font-size: 20px;
     font-weight: 800;
     padding: 10px 20px;
 }
 .sub-con button {
+    margin-bottom:20px ;
     color: white;
     background-color: black;
     border-radius: 30px;
@@ -152,14 +173,13 @@ input {
 }
 
 a{
-    text-decoration: none;
+    color: blue;
+    margin-left: 10px;
+    transition: 0.5s ease-in;
 }
 
+a:hover{
+    font-size: 35px;
+    color: #B34273;
+}
 
-a:visited {
-    color: blue;
-  }
-
-  a:active{
-    color: purple;
-  }
