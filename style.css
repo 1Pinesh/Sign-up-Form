@@ -60,13 +60,13 @@ body{
 .form-desc{
     font-size: 30px;
     padding-left: 50px;
-    padding-top: 120px;
-    padding-bottom: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 
 }
 
 .form-sub-title{
-    padding-top: 25px;
+    padding-top: 15px;
     padding-left: 50px;
     padding-bottom: 15px;
     font-size: 50px;
@@ -178,9 +178,8 @@ input:focus {
 
 .form-section > span {
     display: flex;
-    padding-top: 50px;
+    padding-top: 30px;
     padding-left: 50px;
-    padding-bottom: 25px;
 }
 
 .form-section > span {
