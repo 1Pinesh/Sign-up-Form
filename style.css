@@ -3,7 +3,7 @@
 body{
     margin: 0px;
     margin: 0px; 
-    background-color: lightgray;    
+    background-color: black;    
 }
 
 .main-con{
@@ -16,7 +16,7 @@ body{
     width: 100em;
     background-position: center;
     background-size: cover;
-    background-image: url(./Resource/casey-allen-pT3X6IjYFzA-unsplash.jpg);
+    background-image: url(./Resource/victor-rodriguez-UrfpprfDB0k-unsplash.jpg);
 }
 
 .left-section{
@@ -71,7 +71,7 @@ body{
 }
 
 .form-desc{
-    background-color: lightgray;
+    color:#1fffff;
 }
 
 form{
