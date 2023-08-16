@@ -3,7 +3,7 @@
 body{
     margin: 0px;
     margin: 0px; 
-    background-color: black;    
+    background-color: #1E1C1F    
 }
 
 .main-con{
@@ -77,8 +77,22 @@ body{
 form{
     padding-top:30px ;
     padding-left: 50px;
-    background-color: cornsilk;
-    
+}
+
+.form-desc{
+    background-color:#1E1C1F
+}
+
+.form-sub-title{
+    background-color: #110e05;
+}
+
+form{
+    background-color: #110e05;
+}
+
+.form-section > span{
+    background-color: #1E1C1F
 }
 
 /* Target any calss called col */
@@ -130,8 +144,6 @@ input {
     padding-top: 50px;
     padding-left: 50px;
     padding-bottom: 25px;
-    background-color: cornsilk;
-    box-shadow: 0px 4px 4px rgb(5, 5, 5);
 }
 
 .form-section > span {
