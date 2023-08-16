@@ -1,5 +1,3 @@
-console.log("hello world")
-
 // function to validate password to be the same
 
 function checkPassSame() {
